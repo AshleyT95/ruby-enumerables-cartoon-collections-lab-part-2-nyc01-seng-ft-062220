@@ -1,7 +1,7 @@
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
-  array.map (&:to_i)
+  array.map(&:to_i)
   array.map do |element|
     element * element
   end
